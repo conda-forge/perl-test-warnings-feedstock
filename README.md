@@ -1,11 +1,24 @@
+About perl-test-warnings-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-test-warnings-feedstock/blob/main/LICENSE.txt)
+
+
 About perl-test-warnings
-========================
+------------------------
 
 Home: https://github.com/karenetheridge/Test-Warnings
 
 Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-test-warnings-feedstock/blob/main/LICENSE.txt)
+Summary: Test for warnings and the lack of them
+
+About perl-test-warnings
+------------------------
+
+Home: https://github.com/karenetheridge/Test-Warnings
+
+Package license: GPL-1.0-or-later OR Artistic-1.0-Perl
 
 Summary: Test for warnings and the lack of them
 
@@ -13,7 +26,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/conda-forge/perl-test-warnings-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/perl-test-warnings-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -31,6 +51,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18081&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-test-warnings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18081&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-test-warnings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18081&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-test-warnings-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
